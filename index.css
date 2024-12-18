@@ -1,0 +1,167 @@
+
+
+
+
+
+
+
+
+
+h1 {
+    background-color: #3498db;
+    text-align: center;
+    height: 100px;
+    width: 1350px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px; /* Add padding */
+    box-sizing: border-box; /* Ensures padding is included in the height and width */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+/* General styling for the nav bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 1px;
+    margin: 10px;
+    
+    height: 50px;
+    border: 1px solid #ccc;
+    background: linear-gradient(90deg, #3498db, #1abc9c, #9b59b6, #e74c3c);
+    background-size: 400% 100%;
+    animation: moveBackground 10s linear infinite; /* Apply background animation */
+    overflow: hidden; /* Ensures smooth movement without clipping */
+}
+
+/* Links styling */
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.9s ease-in-out;
+    animation: moveText 1s linear infinite; /* Apply text animation */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Highlight on hover */
+}
+
+/* Input fields styling */
+nav input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    animation: moveText 10s linear infinite; /* Apply text animation */
+}
+
+/* Background movement animation */
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+/* Text movement animation */
+@keyframes moveText {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+p{
+
+        background-color: #db346c;
+        text-align: center;
+        height: 100px;
+        width: 1350px;
+        margin: 10px;
+        border-style: solid;
+        border-color: black;
+        padding: 25px; /* Add padding */
+        box-sizing: border-box; /* Ensures padding is included in the height and width */
+     
+}
+/* Styling for horizontal layout */
+.l {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Add space between items */
+     /* Add spacing between elements */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #db346c;
+        text-align: center;
+        height: 100px;
+        width: 1350px;
+        margin: 10px;
+        border-style: solid;
+        border-color: black;
+     /* Add padding */
+        
+}
+
+.l b {
+    color: #333;
+}
+
+.l b.red {
+    color: rgb(235, 1, 1); /* Style for red text */
+}
+
+/* Container for horizontal alignment */
+.container {
+    display: flex; /* Use flexbox to align items horizontally */
+    gap: 20px; /* Add space between the items */
+    justify-content: center; /* Center the items horizontally */
+    align-items: flex-start;
+    margin: 10px; /* Align items to the top */
+}
+
+/* Style for each h3 block */
+.h3 {
+    text-align: center;
+    margin-right: 20px;
+    background-color: #ffcc00;
+
+    border: 1px solid #ccc; /* Optional: add a border */
+    padding: 10px; /* Add padding inside the box */
+    width: 300px; /* Set a consistent width for each block */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+}
+
+.h3 img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+.h3 a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.h3 a:hover {
+    color: #e74c3c; /* Change color on hover */
+}
+
+
+
+
+
+
+   
